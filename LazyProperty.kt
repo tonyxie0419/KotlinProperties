@@ -3,8 +3,6 @@ fun main(args: Array<String>) {
     val lazyProperty = LazyProperty({ initialized = true;42 })
     val result: Int = lazyProperty.lazy
 
-    println(initialized)
-
     println(result)
 }
 
